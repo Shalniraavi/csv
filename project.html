@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #title{
+            text-align: center;
+            font-style: italic;
+            font-size: 50px;
+        }
+        #gallery {
+            width: 95%;
+            padding: 10px;
+            margin: auto;
+            margin-top: 100px;
+        }
+        .img-caption{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 30px;
+        }
+        .image{
+            float: left;
+            margin: 15px;
+            
+        }
+
+        .image:hover{
+            transform: scale(1.1);
+        }
+        .image img{
+            border: 3px ridge #7c7b7b;
+            box-shadow: 0px 0px 2px 2px 7c7b7b;
+        }
+        body{
+            background-image:url("bg image2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .video{
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="title">AWARNESS ON DIGITAL PAYMENTS</h1>
+    <div id="gallery">
+    <div class="image" id="photo1"><img src="phonepay.jpg" width="400px" height=250px">
+        <div class="img-caption">phonepay</div>
+    </div>
+    <div class="image"><img src="paytm.jpg" width="400px" height=250px">
+        <div class="img-caption">paytm</div>
+    </div>
+    <div class="image"><img src="gpay.jpg" width="400px" height=250px">
+        <div class="img-caption">googlepay</div>
+    </div>
+    <div class="image"><img src="Amazon-pay.jpg" width="400px" height=250px">
+        <div class="img-caption">amazon-pay</div>
+    </div>
+    </div>
+    <div class="video">
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/gx3LJdOPpvI?si=nWnFTEZyjr8lqgMX" title="YouTube video player"
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <iframe width="560" height="315" 
+     src="https://www.youtube.com/embed/-E8IQ8jekkQ?si=uvEy5msWYxSCd3Ci" title="YouTube video player" 
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
